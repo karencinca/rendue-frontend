@@ -8,8 +8,8 @@
 }
 
 .menu img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 20rem;
+    max-height: 20rem;
 }
 
 .nav {
@@ -21,6 +21,7 @@
 
 .nav a {
     text-decoration: none;
+    font-size: 1.6rem;
     margin-bottom: 10px;
     margin-left: -15px;
     padding: 5px 20px;

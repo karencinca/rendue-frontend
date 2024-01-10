@@ -1,4 +1,26 @@
 .header {
-    background-color: pink;
+    background-color: var(--white-01);
     grid-area: header;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.137);
+    margin-left: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header input {
+    margin-left: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.137);
+    border-radius: 20px;
+    padding: 10px;
+    min-width: 300px;
+    height: 30px;
+}
+
+.header img {
+    max-width: 5rem;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
 }
