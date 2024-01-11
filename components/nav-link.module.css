@@ -1,0 +1,20 @@
+.link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin-left: -15px;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    color: var(--white-01);
+    border-radius: 0 15px 15px 0;
+    display: block;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.link:hover {
+    background-color: var(--orange);
+}
+
+.active {
+    background-color: var(--orange);
+}
