@@ -1,10 +1,51 @@
-.card {
+.cards {
     display: flex;
     flex-wrap: wrap;
+    padding: 20px 30px;
+    justify-content: center;
+    gap: 30px;
 }
 
-.card img {
-    width: 33rem;
+.cards img {
+    width: 30rem;
     height: 35rem;
     object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.cards li {
+    max-width: 32rem;
+    max-height: 37rem;
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.174);
+    transition: .3s;
+    cursor: pointer; 
+}
+
+.cards li:hover {
+    transform: scale(1.03);
+}
+
+.cards li h2, .cards li h3 {
+    text-align: center;
+    line-height: 2.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 30rem;
+}
+
+.cards li h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.cards li h3 {
+    font-weight: 400;
+    font-size: 1.2rem;
 }

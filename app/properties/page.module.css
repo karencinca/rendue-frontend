@@ -14,3 +14,7 @@
 .container h1 {
     font-size: 3rem;
 }
+
+.container ul {
+    margin-top: 10px;
+}

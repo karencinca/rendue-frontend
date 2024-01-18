@@ -10,13 +10,11 @@ export default function Properties() {
                 <h1>Imóveis</h1>
                 <Button>Adicionar imóvel</Button>
             </div>
-
             <ul>
                 <PropertyCard 
                     data={propertiesList}
                 />
             </ul>
-
         </div>
     )
 }

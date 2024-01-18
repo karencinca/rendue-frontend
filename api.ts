@@ -38,8 +38,8 @@ const propertiesList: Array<Properties> = [
     {
         id: 5,
         title: "Casa 5",
-        description: "Casa minimalista com design elegante.",
-        image: "house-5".jpg,
+        description: "Casa minimalista com design eleganteeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.",
+        image: "house-5.jpg",
         address: "Avenida E, Nº 1213"
     },
     {
