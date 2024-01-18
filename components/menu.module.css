@@ -5,6 +5,7 @@
     align-items: flex-start;
     flex-direction: column;
     padding-left: 15px;
+    height: 100vh;
 }
 
 .menu img {

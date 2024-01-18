@@ -31,3 +31,17 @@ body {
   text-align: center;
   margin: auto;
 }
+
+*::-webkit-scrollbar {
+  width: 8px;
+  margin-right: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--white-01);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.244);
+  border-radius: 20px;
+}

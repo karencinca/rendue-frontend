@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styles from './menu.module.css'
 import Image from "next/image";
 
