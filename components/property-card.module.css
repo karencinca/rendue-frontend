@@ -1,0 +1,10 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 33rem;
+    height: 35rem;
+    object-fit: cover;
+}
