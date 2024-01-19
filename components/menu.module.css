@@ -2,21 +2,25 @@
     background-color: var(--menu-color);
     grid-area: menu;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
-    padding-left: 15px;
     height: 100vh;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .menu img {
     max-width: 20rem;
-    max-height: 20rem;
+    max-height: 9.5rem;
+    margin: 5rem 2rem;
+    object-fit: contain;
 }
 
 .nav {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
 }
 
 .nav ul li {

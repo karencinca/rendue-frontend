@@ -3,7 +3,12 @@ import styles from './nav-link.module.css'
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export default function NavLink({ href, children }) {
+type Props = {
+    href: string,
+    children: string
+}
+
+export default function NavLink({ href, children }: Props) {
     const path = usePathname()
 
     return (

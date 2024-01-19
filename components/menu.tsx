@@ -1,14 +1,17 @@
 import styles from './menu.module.css'
 import Image from "next/image";
 
-import logoImg from '@/public/logo-3.png'
+import logoImg from '@/public/logo-3-nobg.png'
 import NavLink from "./nav-link";
+import Link from 'next/link';
 
 export default function Menu() {
 
     return (
         <div className={styles.menu}>
-            <Image src={logoImg} alt="logo do aplicativo" priority/>
+            <Link href='/'>
+                <Image src={logoImg} alt="logo do aplicativo" priority/>
+            </Link>
 
             <nav className={styles.nav}>
                 <ul>
