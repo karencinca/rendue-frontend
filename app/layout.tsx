@@ -8,7 +8,7 @@ import Header from '@/components/header'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Rentdule',
+  title: 'Rendue',
   description: 'Your app to organize your properties and bookings.',
 }
 

@@ -9,10 +9,13 @@
     flex-shrink: 1;
 }
 
+.menu > a:first-child {
+    margin-bottom: 5rem;
+}
+
 .menu img {
-    max-width: 20rem;
+    max-width: 12rem;
     max-height: 9.5rem;
-    margin: 5rem 2rem;
     object-fit: contain;
 }
 

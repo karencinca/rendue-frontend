@@ -1,7 +1,7 @@
 import styles from './menu.module.css'
 import Image from "next/image";
 
-import logoImg from '@/public/logo-3-nobg.png'
+import logoImg from '@/public/rendue-nobg.svg'
 import NavLink from "./nav-link";
 import Link from 'next/link';
 
