@@ -1,5 +1,5 @@
 .menu {
-    background-color: var(--menu-color);
+    background-color: var(--black-02);
     grid-area: menu;
     display: flex;
     align-items: center;
@@ -11,11 +11,12 @@
 
 .menu > a:first-child {
     margin-bottom: 5rem;
+    text-align: center;
 }
 
 .menu img {
-    max-width: 12rem;
-    max-height: 9.5rem;
+    max-width: 10rem;
+    height: 6rem;
     object-fit: contain;
 }
 

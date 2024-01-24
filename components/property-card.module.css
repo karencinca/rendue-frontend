@@ -1,9 +1,23 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 30px;
     justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
     gap: 30px;
+}
+
+.cards a {
+    text-decoration: none;
+    color: var(--black-01);
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 40rem;
+    max-height: 42rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.174);
+    transition: .3s;
+    cursor: pointer;
 }
 
 .cards img {
@@ -14,26 +28,18 @@
 }
 
 .cards li {
-    max-width: 40rem;
-    max-height: 37rem;
-    border-radius: 8px;
-    padding: 5px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.174);
-    transition: .3s;
-    cursor: pointer; 
-    flex-grow: 1;
-    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
 
-.cards li:hover {
+.cards a:hover {
     transform: scale(1.03);
 }
 
-.cards li h2, .cards li h3 {
+.cards a li h2, .cards a li h3 {
     text-align: center;
     line-height: 2.5rem;
     overflow: hidden;
@@ -42,12 +48,12 @@
     max-width: 30rem;
 }
 
-.cards li h2 {
+.cards a li h2 {
     font-size: 1.8rem;
     text-transform: uppercase;
 }
 
-.cards li h3 {
+.cards a li h3 {
     font-weight: 400;
     font-size: 1.2rem;
 }
