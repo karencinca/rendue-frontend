@@ -14,7 +14,7 @@ export default function NavLink({ href, children }: Props) {
     return (
         <Link 
             href={href} 
-            className={path.startsWith(href) 
+            className={path.endsWith(href) 
                 ? `${styles.link} ${styles.active}` 
                 : styles.link}
             >

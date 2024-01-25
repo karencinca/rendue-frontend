@@ -1,19 +1,17 @@
 .link {
     text-decoration: none;
-    font-size: 1.6rem;
-    margin: auto 5px 20px -15px;
+    font-size: 1.4rem;
     padding: 5px 20px;
     color: var(--white-01);
-    border-radius: 0 15px 15px 0;
     display: block;
     width: 200px;
     transition: 0.3s;
 }
 
 .link:hover {
-    background-color: var(--orange);
+    color: var(--orange);
 }
 
 .active {
-    background-color: var(--orange);
+    color: var(--orange);
 }

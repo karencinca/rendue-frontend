@@ -1,4 +1,4 @@
-.menu {
+.sidebar {
     background-color: var(--black-02);
     grid-area: menu;
     display: flex;
@@ -9,12 +9,12 @@
     flex-shrink: 1;
 }
 
-.menu > a:first-child {
+.sidebar > a:first-child {
     margin-bottom: 5rem;
     text-align: center;
 }
 
-.menu img {
+.sidebar img {
     max-width: 10rem;
     height: 6rem;
     object-fit: contain;
