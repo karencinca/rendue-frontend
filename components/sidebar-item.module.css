@@ -11,6 +11,16 @@
     font-size: 1.6rem;
 }
 
+.sidebar_title span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar_title span svg {
+    margin-right: 4px;
+}
+
 .sidebar_content {
     font-size: 1.4rem;
     display: flex;
