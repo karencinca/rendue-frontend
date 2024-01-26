@@ -1,6 +1,6 @@
 .sidebar {
     background-color: var(--black-02);
-    grid-area: menu;
+    grid-area: sidebar;
     display: flex;
     align-items: center;
     flex-direction: column;

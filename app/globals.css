@@ -16,7 +16,7 @@
   font-size: 62.5%;
 }
 
-body {
+/* body {
   background-color: var(--white-01);
   display: grid;
   grid-template-columns: 1fr 5fr;
@@ -26,7 +26,7 @@ body {
   "menu content";
 
   height: 100vh;
-}
+} */
 
 .not-found {
   text-align: center;

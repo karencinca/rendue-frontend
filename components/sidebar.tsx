@@ -10,31 +10,25 @@ export default function Sidebar() {
 
     return (
         <div className={styles.sidebar}>
-            <Link href='/'>
+            <Link href='/user'>
                 <Image src={logoImg} alt="logo do aplicativo" priority/>
             </Link>
 
             <nav className={styles.nav}>
             <SidebarItem title="Imóveis"> 
-                <NavLink href="/properties">Meus imóveis</NavLink>
-                <NavLink href="/properties/addproperty">Adicionar imóvel</NavLink>
+                <NavLink href="/user/properties">Meus imóveis</NavLink>
+                <NavLink href="/user/properties/addproperty">Adicionar imóvel</NavLink>
             </SidebarItem>
 
             <SidebarItem title="Reservas"> 
-                <NavLink href="/bookings">Reservas cadastradas</NavLink>
-                <NavLink href="/bookings/addbooking">Adicionar reserva</NavLink>
+                <NavLink href="/user/bookings">Reservas cadastradas</NavLink>
+                <NavLink href="/user/bookings/addbooking">Adicionar reserva</NavLink>
             </SidebarItem>
 
             <SidebarItem title="Inquilinos"> 
-                <NavLink href="/tenants">Reservas cadastradas</NavLink>
-                <NavLink href="/bookings/addtenant">Adicionar inquilino</NavLink>
+                <NavLink href="/user/tenants">Reservas cadastradas</NavLink>
+                <NavLink href="/user/bookings/addtenant">Adicionar inquilino</NavLink>
             </SidebarItem>
-                {/* <ul>
-                    <li><NavLink href='/properties'>Imóveis</NavLink></li>
-                    <li><NavLink href='/bookings'>Reservas</NavLink></li>
-                    <li><NavLink href='/tenants'>Inquilinos</NavLink></li>
-                    <li><NavLink href='/profile'>Perfil</NavLink></li>
-                </ul> */}
             </nav>
         </div>
     )
