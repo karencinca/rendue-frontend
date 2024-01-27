@@ -2,6 +2,7 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
 }
 
 .container h1 {
@@ -28,14 +29,39 @@
 
 .container form p label {
     font-size: 1.6rem;
-    margin-right: 5px;
 }
 
-.container form p input, .container form p textarea {
+.container .select_tenant {
+    background: none;
+    width: 200px;
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .select_tenant:hover {
+    border: 2px solid rgb(250, 154, 11);
+}
+
+.container form p input, 
+.container form p textarea, 
+.container form p select {
     background-color: rgba(35, 35, 35, 0.048);
     border: 1.5px solid rgba(43, 43, 43, 0.384);
     border-radius: 5px;
     padding: 5px;
+    width: 100%;
+}
+
+.date_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
 }
 
 .container button {

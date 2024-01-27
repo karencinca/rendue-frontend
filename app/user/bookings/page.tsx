@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import styles from './page.module.css'
 import { CaretLeft, DotsThreeOutline } from "@phosphor-icons/react/dist/ssr";
-import dynamic from 'next/dynamic'
 
 export default function Bookings() {
     return (
@@ -17,6 +16,90 @@ export default function Bookings() {
                     <th className={styles.item5}></th>
                 </tr>
 
+                <tr>
+                    <td>12/01/2024</td>
+                    <td>20/01/2024</td>
+                    <td>Casa 5</td>
+                    <td>Fulano de Tal</td>
+                    <td><button><DotsThreeOutline size={20} weight="light" /></button></td>
+                </tr>
+                <tr>
+                    <td>12/01/2024</td>
+                    <td>20/01/2024</td>
+                    <td>Casa 5</td>
+                    <td>Fulano de Tal</td>
+                    <td><button><DotsThreeOutline size={20} weight="light" /></button></td>
+                </tr>
+                <tr>
+                    <td>12/01/2024</td>
+                    <td>20/01/2024</td>
+                    <td>Casa 5</td>
+                    <td>Fulano de Tal</td>
+                    <td><button><DotsThreeOutline size={20} weight="light" /></button></td>
+                </tr>
+                <tr>
+                    <td>12/01/2024</td>
+                    <td>20/01/2024</td>
+                    <td>Casa 5</td>
+                    <td>Fulano de Tal</td>
+                    <td><button><DotsThreeOutline size={20} weight="light" /></button></td>
+                </tr>
+                <tr>
+                    <td>12/01/2024</td>
+                    <td>20/01/2024</td>
+                    <td>Casa 5</td>
+                    <td>Fulano de Tal</td>
+                    <td><button><DotsThreeOutline size={20} weight="light" /></button></td>
+                </tr>
+                <tr>
+                    <td>12/01/2024</td>
+                    <td>20/01/2024</td>
+                    <td>Casa 5</td>
+                    <td>Fulano de Tal</td>
+                    <td><button><DotsThreeOutline size={20} weight="light" /></button></td>
+                </tr>
+                <tr>
+                    <td>12/01/2024</td>
+                    <td>20/01/2024</td>
+                    <td>Casa 5</td>
+                    <td>Fulano de Tal</td>
+                    <td><button><DotsThreeOutline size={20} weight="light" /></button></td>
+                </tr>
+                <tr>
+                    <td>12/01/2024</td>
+                    <td>20/01/2024</td>
+                    <td>Casa 5</td>
+                    <td>Fulano de Tal</td>
+                    <td><button><DotsThreeOutline size={20} weight="light" /></button></td>
+                </tr>
+                <tr>
+                    <td>12/01/2024</td>
+                    <td>20/01/2024</td>
+                    <td>Casa 5</td>
+                    <td>Fulano de Tal</td>
+                    <td><button><DotsThreeOutline size={20} weight="light" /></button></td>
+                </tr>
+                <tr>
+                    <td>12/01/2024</td>
+                    <td>20/01/2024</td>
+                    <td>Casa 5</td>
+                    <td>Fulano de Tal</td>
+                    <td><button><DotsThreeOutline size={20} weight="light" /></button></td>
+                </tr>
+                <tr>
+                    <td>12/01/2024</td>
+                    <td>20/01/2024</td>
+                    <td>Casa 5</td>
+                    <td>Fulano de Tal</td>
+                    <td><button><DotsThreeOutline size={20} weight="light" /></button></td>
+                </tr>
+                <tr>
+                    <td>12/01/2024</td>
+                    <td>20/01/2024</td>
+                    <td>Casa 5</td>
+                    <td>Fulano de Tal</td>
+                    <td><button><DotsThreeOutline size={20} weight="light" /></button></td>
+                </tr>
                 <tr>
                     <td>12/01/2024</td>
                     <td>20/01/2024</td>

@@ -14,11 +14,13 @@
     box-shadow: -1px 1px 10px 8px rgba(0, 0, 0, 0.075);
     border-radius: 8px;
     margin: 10px auto;
-    overflow-x: scroll;
+    overflow-y: scroll;
 }
 
 .container th {
     background-color: var(--orange);
+    color: var(--white-01);
+    font-weight: 500;
 }
 
 .item1 {
