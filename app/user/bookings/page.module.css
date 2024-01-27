@@ -1,0 +1,83 @@
+.container {
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.container h1 {
+    margin-bottom: 15px;
+}
+
+.container table {
+    font-size: 1.6rem;
+    border-spacing: 0;
+    width: 90%;
+    box-shadow: -1px 1px 10px 8px rgba(0, 0, 0, 0.075);
+    border-radius: 8px;
+    margin: 10px auto;
+    overflow-x: scroll;
+}
+
+.container th {
+    background-color: var(--orange);
+}
+
+.item1 {
+    border-top-left-radius: 8px;
+    min-width: 150px;
+}
+
+.item2 {
+    min-width: 150px;
+}
+
+.item3 {
+    min-width: 200px;
+}
+
+.item4 {
+    min-width: 200px;
+}
+
+.item5 {
+    border-top-right-radius: 8px;
+    width: 5%;
+}
+
+.container td {
+    text-align: center;
+}
+
+.container tr:nth-child(even) {
+    background-color: rgba(35, 35, 35, 0.048);
+}
+
+.container tr:hover {
+    background-color: rgba(10, 10, 10, 0.11);
+}
+
+.container table tr td button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.container a {
+    display: flex;
+    align-self: flex-start;
+    color: var(--orange);
+    cursor: pointer;
+    align-items: center;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+/* .container a:hover {
+    transform: scale(1.05);
+} */

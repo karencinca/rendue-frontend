@@ -8,23 +8,6 @@
     margin-bottom: 15px;
 }
 
-.container a {
-    display: flex;
-    align-self: flex-start;
-    color: var(--orange);
-    cursor: pointer;
-    transition: .3s;
-    align-items: center;
-    font-size: 1.4rem;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.container a:hover {
-    transform: scale(1.05);
-}
-
 .container form {
     display: flex;
     padding: 20px;
@@ -48,8 +31,23 @@
     margin-right: 5px;
 }
 
-
-
 .container button {
     align-self: flex-end;
+}
+
+.container a {
+    display: flex;
+    align-self: flex-start;
+    color: var(--orange);
+    cursor: pointer;
+    transition: .3s;
+    align-items: center;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.container a:hover {
+    transform: scale(1.05);
 }
