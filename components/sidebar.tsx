@@ -28,7 +28,7 @@ export default function Sidebar() {
 
             <SidebarItem icon={<UserRectangle size={20} weight="light" />} title="Inquilinos"> 
                 <NavLink href="/user/tenants">Inquilinos cadastrados</NavLink>
-                <NavLink href="/user/bookings/addtenant">Adicionar inquilino</NavLink>
+                <NavLink href="/user/tenants/addtenant">Adicionar inquilino</NavLink>
             </SidebarItem>
             </nav>
         </div>
