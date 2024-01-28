@@ -33,21 +33,14 @@
 }
 
 .item3 {
-    min-width: 200px;
+    min-width: 250px;
 }
 
 .item4 {
-    min-width: 200px;
-}
-
-.item5 {
-    width: 8%;
-}
-
-.item6 {
     border-top-right-radius: 8px;
     width: 5%;
 }
+
 
 .container td {
     text-align: center;

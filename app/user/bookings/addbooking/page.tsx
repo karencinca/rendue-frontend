@@ -51,6 +51,11 @@ export default function AddBooking() {
                 </div>
 
                 <p>
+                    <label htmlFor="income">Valor total:</label>
+                    <input type="text" name="income" id="income" />
+                </p>
+
+                <p>
                     <label htmlFor="property-observations">Observações:</label>
                     <textarea name="property-observations" id="property-observations" cols="30" rows="3"></textarea>
                 </p>
