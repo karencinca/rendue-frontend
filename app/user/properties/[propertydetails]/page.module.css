@@ -1,3 +1,37 @@
 .page {
-    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    /* justify-content: space-aroun; */
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: scroll;
+}
+
+.description h3 {
+    font-size: 3rem;
+    text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.244);
+}
+
+.description h4 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.details p,
+.details span,
+.details li {
+    font-size: 1.6rem;
+}
+
+.details span {
+    font-weight: 500;
 }
