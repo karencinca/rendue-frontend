@@ -35,6 +35,7 @@ export default function PropertyDetails() {
                         Calendar
                     </div>
                     <div className={styles.summary}>
+                        <p>Checkin e Checkout</p>
                         <ul>
                             <li>Dia 23/02/24 entra Ciclano</li>
                             <li>Dia 27/02/24 sai Fulano</li>

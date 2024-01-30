@@ -1,23 +1,30 @@
-import styles from './styles.module.css'
+import styles from './page.module.css'
 
 export default function User() {
     return (
         <div className={styles.container}>
             <h1>Página inicial</h1>
 
-            <div>
-                <h2>Imóveis</h2>
-                <div>lista de imóveis</div>
-            </div>
+            <div className={styles.dashboard_container}>
+                <div className={styles.schedule}>
+                    <h2>Próximos check in</h2>
 
-            <div>
-                <h2>Reservas</h2>
-                <div>lista de reservas</div>
-            </div>
-
-            <div>
-                <h2>Inquilinos</h2>
-                <div>lista de inquilinos</div>
+                    <div className={styles.cards}>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div className={styles.schedule}>
+                    <h2>Próximos check out</h2>
+                    <div className={styles.cards}>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
             </div>
         </div>
     )

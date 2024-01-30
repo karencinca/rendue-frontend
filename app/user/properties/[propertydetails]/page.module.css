@@ -3,9 +3,9 @@
     flex-direction: row;
     width: 100%;
     padding: 20px;
-    /* justify-content: space-aroun; */
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
     overflow-y: scroll;
 }
 
@@ -34,4 +34,28 @@
 
 .details span {
     font-weight: 500;
+}
+
+
+.details li {
+    list-style: circle;
+}
+
+.sidebar {
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.08);
+    padding: 10px;
+}
+
+.calendar_container div:first-of-type {
+    border: 2px solid black;
+    height: 400px;
+}
+
+.summary {
+    font-size: 1.6rem;
+}
+
+.summary p {
+    text-align: center;
 }
