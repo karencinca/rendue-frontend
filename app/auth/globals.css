@@ -1,0 +1,10 @@
+main {
+    background-color: var(--white-01);
+    display: grid;
+    grid-template-rows: .7fr 5fr;
+    grid-template-areas: 
+    "headerinitial"
+    "contentinitial";
+  
+    height: 100vh;
+}

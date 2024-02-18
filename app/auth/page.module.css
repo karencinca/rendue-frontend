@@ -1,0 +1,6 @@
+.container {
+    grid-area: contentinitial;
+
+    overflow-y: scroll;
+
+}
