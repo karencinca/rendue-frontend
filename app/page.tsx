@@ -5,6 +5,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <HeaderInitial />
+
+      <h1>landing page</h1>
     </main>
   )
 }

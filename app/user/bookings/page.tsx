@@ -22,7 +22,7 @@ export default function Bookings() {
                     <td>20/01/2024</td>
                     <td>Casa 5</td>
                     <td>Fulano de Tal</td>
-                    <td title="Reservado"><Dot size={28} color="#23f207" weight="fill" /></td>
+                    <td title="Check-in"><Dot size={28} color="#23f207" weight="fill" /></td>
                     <td title="Mostrar detalhes"><button><DotsThreeOutline size={20} weight="light" /></button></td>
                 </tr>
                 <tr>
@@ -30,7 +30,7 @@ export default function Bookings() {
                     <td>20/01/2024</td>
                     <td>Casa 5</td>
                     <td>Fulano de Tal</td>
-                    <td title="Reservado"><Dot size={28} color="#23f207" weight="fill" /></td>
+                    <td title="Check-in"><Dot size={28} color="#23f207" weight="fill" /></td>
                     <td title="Mostrar detalhes"><button><DotsThreeOutline size={20} weight="light" /></button></td>
                 </tr>
                 <tr>
@@ -38,7 +38,7 @@ export default function Bookings() {
                     <td>20/01/2024</td>
                     <td>Casa 5</td>
                     <td>Fulano de Tal</td>
-                    <td title="Reservado"><Dot size={28} color="#23f207" weight="fill" /></td>
+                    <td title="Check-in"><Dot size={28} color="#23f207" weight="fill" /></td>
                     <td title="Mostrar detalhes"><button><DotsThreeOutline size={20} weight="light" /></button></td>
                 </tr>
                 <tr>
@@ -46,7 +46,7 @@ export default function Bookings() {
                     <td>20/01/2024</td>
                     <td>Casa 5</td>
                     <td>Fulano de Tal</td>
-                    <td title="Reservado"><Dot size={28} color="#23f207" weight="fill" /></td>
+                    <td title="Check-in"><Dot size={28} color="#23f207" weight="fill" /></td>
                     <td title="Mostrar detalhes"><button><DotsThreeOutline size={20} weight="light" /></button></td>
                 </tr>
                 <tr>
@@ -54,7 +54,7 @@ export default function Bookings() {
                     <td>20/01/2024</td>
                     <td>Casa 5</td>
                     <td>Fulano de Tal</td>
-                    <td title="Reservado"><Dot size={28} color="#23f207" weight="fill" /></td>
+                    <td title="Check-in"><Dot size={28} color="#23f207" weight="fill" /></td>
                     <td title="Mostrar detalhes"><button><DotsThreeOutline size={20} weight="light" /></button></td>
                 </tr>
                 <tr>
@@ -62,7 +62,7 @@ export default function Bookings() {
                     <td>20/01/2024</td>
                     <td>Casa 5</td>
                     <td>Fulano de Tal</td>
-                    <td title="Reservado"><Dot size={28} color="#23f207" weight="fill" /></td>
+                    <td title="Check-in"><Dot size={28} color="#23f207" weight="fill" /></td>
                     <td title="Mostrar detalhes"><button><DotsThreeOutline size={20} weight="light" /></button></td>
                 </tr>
                 <tr>
@@ -70,7 +70,7 @@ export default function Bookings() {
                     <td>20/01/2024</td>
                     <td>Casa 5</td>
                     <td>Fulano de Tal</td>
-                    <td title="Com pendência"><Dot size={28} color="#ff0101" weight="fill" /></td>
+                    <td title="Check-out"><Dot size={28} color="#ff0101" weight="fill" /></td>
                     <td title="Mostrar detalhes"><button><DotsThreeOutline size={20} weight="light" /></button></td>
                 </tr>
                 <tr>
@@ -78,7 +78,7 @@ export default function Bookings() {
                     <td>20/01/2024</td>
                     <td>Casa 5</td>
                     <td>Fulano de Tal</td>
-                    <td title="Com pendência"><Dot size={28} color="#ff0101" weight="fill" /></td>
+                    <td title="Check-out"><Dot size={28} color="#ff0101" weight="fill" /></td>
                     <td title="Mostrar detalhes"><button><DotsThreeOutline size={20} weight="light" /></button></td>
                 </tr>
                 <tr>

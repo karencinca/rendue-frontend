@@ -6,7 +6,9 @@ import Link from 'next/link'
 export default function HeaderInitial() {
     return (
         <header className={styles.header}>
-        <Image src={Logo} alt="logo Rendue" width={100} />
+        <Link href='/'>
+          <Image src={Logo} alt="logo Rendue" width={100} />
+        </Link>
         <ul>
           <li>
             <Link href='/auth/createaccount'>

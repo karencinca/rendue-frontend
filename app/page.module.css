@@ -2,3 +2,8 @@
   background-color: var(--bg-01);
   grid-area: content;
 }
+
+.main h1 {
+  text-align: center;
+  margin-top: 40px;
+}
